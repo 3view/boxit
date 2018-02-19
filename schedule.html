@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- begin::Head -->
+
+<head>
+	<meta charset="utf-8" />
+	<title>BOXIT | LCL Made simple</title>
+
+	<meta name="description" content="BOXIT | LCL Made simple">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--begin::Web font -->
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				"families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"]
+			},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+	<!--end::Web font -->
+	<!--begin::Base Styles -->
+	<link href="css/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="css/base/style.bundle.css" rel="stylesheet" type="text/css" />
+	<!--end::Base Styles -->
+</head>
+<!-- end::Head -->
+<!-- end::Body -->
+
+<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+	<!-- begin:: Page -->
+	<div id="app">
+		<div class="m-grid m-grid--hor m-grid--root m-page">
+			<!-- BEGIN: Header -->
+			<header class="m-grid__item    m-header " data-minimize-offset="200" data-minimize-mobile-offset="200">
+				<div class="m-container m-container--fluid m-container--full-height">
+					<div class="m-stack m-stack--ver m-stack--desktop">
+						<!-- BEGIN: Brand -->
+						<div class="m-stack__item m-brand  m-brand--skin-dark ">
+							<div class="m-stack m-stack--ver m-stack--general">
+								<div class="m-stack__item m-stack__item--middle m-brand__logo">
+									<a href="index.html" class="m-brand__logo-wrapper">
+										<img alt="" src="img/logo/boxit-logo.png"/>
+									</a>
+								</div>
+								<div class="m-stack__item m-stack__item--middle m-brand__tools">
+
+									<!-- BEGIN: Responsive Header Menu Toggler -->
+									<a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler m--visible-tablet-and-mobile-inline-block">
+										<span></span>
+									</a>
+									<!-- END -->
+									<!-- BEGIN: Topbar Toggler -->
+									<a id="m_aside_header_topbar_mobile_toggle" href="javascript:;" class="m-brand__icon m--visible-tablet-and-mobile-inline-block">
+										<i class="flaticon-more"></i>
+									</a>
+									<!-- BEGIN: Topbar Toggler -->
+								</div>
+							</div>
+						</div>
+						<!-- END: Brand -->
+						<div class="m-stack__item m-stack__item--fluid m-header-head" id="m_header_nav">
+							<!-- BEGIN: Horizontal Menu -->
+							<button class="m-aside-header-menu-mobile-close  m-aside-header-menu-mobile-close--skin-dark " id="m_aside_header_menu_mobile_close_btn">
+								<i class="la la-close"></i>
+							</button>
+							<div id="m_header_menu" class="m-header-menu m-aside-header-menu-mobile m-aside-header-menu-mobile--offcanvas  m-header-menu--skin-light m-header-menu--submenu-skin-light m-aside-header-menu-mobile--skin-dark m-aside-header-menu-mobile--submenu-skin-dark ">
+
+							</div>
+							<!-- END: Horizontal Menu -->
+							<!-- BEGIN: Topbar -->
+							<div id="m_header_topbar" class="m-topbar  m-stack m-stack--ver m-stack--general">
+								<div class="m-stack__item m-topbar__nav-wrapper">
+									<ul class="m-topbar__nav m-nav m-nav--inline">
+
+										<li class="m-nav__item m-topbar__user-profile m-topbar__user-profile--img  m-dropdown m-dropdown--medium m-dropdown--arrow m-dropdown--header-bg-fill m-dropdown--align-right m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">
+											<a href="signup.html" class="m-nav__link ">
+												<span class="m-topbar__username m--hidden-tablet m--hidden-mobile m--padding-right-15">
+													<span class="m-link">
+														<font color="black">SIGNUP</font>
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li class="m-nav__item m-topbar__user-profile m-topbar__user-profile--img  m-dropdown m-dropdown--medium m-dropdown--arrow m-dropdown--header-bg-fill m-dropdown--align-right m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">
+											<a href="exit-guest.html" class="m-nav__link ">
+												<span class="m-topbar__username m--hidden-tablet m--hidden-mobile m--padding-right-15">
+													<span class="m-link">
+														<font color="black">EXIT</font>
+													</span>
+												</span>
+											</a>
+
+										</li>
+
+									</ul>
+
+
+								</div>
+							</div>
+							<!-- END: Topbar -->
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- END: Header -->
+
+			<!-- begin::Body -->
+			<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+				<div class="m-grid__item m-grid__item--fluid m-wrapper">
+					<div class="m-content">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="">
+									<div class="m-portlet__head">
+										<div class="m-portlet__head-caption">
+											<div class="m-portlet__head-title">
+												<span class="m-portlet__head-icon m--hide">
+                        <i class="la la-gear"></i>
+                      </span>
+												<h6 class="m-portlet__head-text">
+                        Origin
+                      </h6>
+											</div>
+										</div>
+									</div>
+									<form class="m-form m-form--fit m-form--label-align-right">
+										<div class="m-portlet__body">
+											<div class="form-group m-form__group">
+												<div class="input-group m-input-group">
+													<input type="text" class="form-control m-input" placeholder="Origin Country">
+													<input type="text" class="form-control m-input" placeholder="City">
+													<input type="text" class="form-control m-input" placeholder="Zip Code">
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="">
+									<div class="m-portlet__head">
+										<div class="m-portlet__head-caption">
+											<div class="m-portlet__head-title">
+												<span class="m-portlet__head-icon m--hide">
+                      <i class="la la-gear"></i>
+                    </span>
+												<h6 class="m-portlet__head-text">
+                      Destination
+                    </h6>
+											</div>
+										</div>
+									</div>
+									<form class="m-form m-form--fit m-form--label-align-right">
+										<div class="m-portlet__body">
+											<div class="form-group m-form__group">
+												<div class="input-group m-input-group">
+													<input type="text" class="form-control m-input" placeholder="Origin Country">
+													<input type="text" class="form-control m-input" placeholder="City" aria-describedby="basic-addon1">
+													<input type="text" class="form-control m-input" placeholder="Zip Code" aria-describedby="basic-addon1">
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="m-content">
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="m-portlet">
+									<div class="m-portlet__head">
+										<div class="m-portlet__head-caption">
+											<div class="m-portlet__head-title">
+
+												<h3 class="m-portlet__head-text">
+                    Filter Results
+                  </h3>
+											</div>
+										</div>
+									</div>
+									<div class="m-portlet__body">
+										<div class="col-lg-12">
+											<ul class="nav nav-pills nav-pills--brand  m-nav-pills--btn-pill " role="tablist">
+
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#" role="tab">
+													CFS to CFS
+												</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#" role="tab">
+													Door to Door
+												</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#" role="tab">
+													CFS to Door
+												</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#" role="tab">
+													Door to CFS
+												</a>
+												</li>
+											</ul>
+										</div>
+
+
+										<div class="form-group m-form__group row">
+											<label class="col-form-label col-lg-3 col-sm-12">
+                    Date Range (Weeks)
+                  </label>
+											<div class="col-lg-8 col-md-9 col-sm-12">
+												<div class="m-ion-range-slider">
+													<input type="hidden" id="m_slider_1" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="">
+									<div class="m-portlet m-portlet--bordered-semi m-portlet--full-height  m-portlet--rounded-force">
+										<div class="m-portlet__head m-portlet__head--fit">
+											<div class="m-portlet__head-caption">
+												<div class="m-portlet__head-action">
+													<button type="button" class="btn btn-sm m-btn--pill  btn-brand">
+															Promotions
+														</button>
+												</div>
+											</div>
+										</div>
+										<div class="m-portlet__body">
+											<div class="m-widget19">
+												<div class="m-widget19__pic m-portlet-fit--top m-portlet-fit--sides" style="min-height-: 286px">
+													<img src="img/blog6.jpg" alt="">
+													<h3 class="m-widget19__title m--font-light">
+															Introducing New Feature
+														</h3>
+													<div class="m-widget19__shadow"></div>
+												</div>
+												<div class="m-widget19__content">
+													<div class="m-widget19__header">
+														<div class="m-widget19__info">
+															<span class="m-widget19__username">
+																	BOXIT Team
+																</span>
+															<br>
+															<span class="m-widget19__time">
+																	Marketing Designer, test banner
+																</span>
+														</div>
+													</div>
+													<div class="m-widget19__body">
+														Lorem Ipsum is simply dummy text of the printing and typesetting industry scrambled it to make text of the printing and typesetting industry scrambled a type specimen book text of the dummy text of the printing printing and typesetting industry scrambled
+														dummy text of the printing.
+													</div>
+												</div>
+												<div class="m-widget19__action">
+													<button type="button" class="btn m-btn--pill btn-secondary m-btn m-btn--hover-brand m-btn--custom">
+															Read More
+														</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<img class="m-widget7__img" src="img/logo-power-login.png" alt="" width="150px">
+							</div>
+							<div class="col-lg-8">
+								<div class="m-portlet">
+									<form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed">
+										<div class="m-portlet__body">
+											<div class="form-group m-form__group row">
+												<div class="col-lg-4">
+													<label>
+								                    <span class="m-form__help">
+								                      Origin
+								                    </span>
+								                    <br>SYDNEY (2000) AUSTRALIA
+								                  </label>
+													<label>
+								                    <span class="m-form__help">
+								                      Destination
+								                    </span>
+								                    <br>LINZ (4020) AUSTRIA
+								                  </label>
+												</div>
+												<div class="col-lg-4">
+												</div>
+												<div class="col-lg-4">
+													<span class="m-form__help">
+								                    CFS cut off date: <b>03-Jan-2018</b><br>
+								                    ETD: 06-Jan-2018 <br>
+								                    ETA: 20-Feb-2018 <br>
+								                    Transit time 45 Day /Days
+								                  </span>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="m-portlet">
+									<form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed">
+										<div class="m-portlet__body">
+											<div class="form-group m-form__group row">
+												<div class="col-lg-4">
+													<label>
+										                      <span class="m-form__help">
+										                        Origin
+										                      </span>
+										                      <br>SYDNEY (2000) AUSTRALIA
+										                    </label>
+													<label>
+										                      <span class="m-form__help">
+										                        Destination
+										                      </span>
+										                      <br>LINZ (4020) AUSTRIA
+										                    </label>
+												</div>
+												<div class="col-lg-4">
+												</div>
+												<div class="col-lg-4">
+													<span class="m-form__help">
+										                      CFS cut off date: <b>06-Jan-2018</b><br>
+										                      ETD: 09-Jan-2018 <br>
+										                      ETA: 23-Feb-2018 <br>
+										                      Transit time 45 Day /Days
+										                    </span>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="m-portlet">
+									<form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed">
+										<div class="m-portlet__body">
+											<div class="form-group m-form__group row">
+												<div class="col-lg-4">
+													<label>
+										                        <span class="m-form__help">
+										                          Origin
+										                        </span>
+										                        <br>SYDNEY (2000) AUSTRALIA
+										                      </label>
+													<label>
+										                        <span class="m-form__help">
+										                          Destination
+										                        </span>
+										                        <br>LINZ (4020) AUSTRIA
+										                      </label>
+												</div>
+												<div class="col-lg-4">
+												</div>
+												<div class="col-lg-4">
+													<span class="m-form__help">
+										                        CFS cut off date: <b>08-Jan-2018</b><br>
+										                        ETD: 11-Jan-2018 <br>
+										                        ETA: 26-Feb-2018 <br>
+										                        Transit time 45 Day /Days
+										                      </span>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="m-portlet">
+									<form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed">
+										<div class="m-portlet__body">
+											<div class="form-group m-form__group row">
+												<div class="col-lg-4">
+													<label>
+										                          <span class="m-form__help">
+										                            Origin
+										                          </span>
+										                          <br>SYDNEY (2000) AUSTRALIA
+										                        </label>
+													<label>
+										                          <span class="m-form__help">
+										                            Destination
+										                          </span>
+										                          <br>LINZ (4020) AUSTRIA
+										                        </label>
+												</div>
+												<div class="col-lg-4">
+												</div>
+												<div class="col-lg-4">
+													<span class="m-form__help">
+										                          CFS cut off date: <b>12-Jan-2018</b><br>
+										                          ETD: 15-Jan-2018 <br>
+										                          ETA: 29-Feb-2018 <br>
+										                          Transit time 45 Day /Days
+										                        </span>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="m-scroll-top m-scroll-top--skin-top" data-toggle="m-scroll-top" data-scroll-offset="500" data-scroll-speed="300">
+		<i class="la la-arrow-up"></i>
+	</div>
+
+
+	<script src="js/vendors.bundle.js" type="text/javascript"></script>
+	<script src="js/scripts.bundle.js" type="text/javascript"></script>
+	<script src="js/ion-range-slider.js" type="text/javascript"></script>
+
+
+	<!--end::Page Resources -->
+</body>
+<!-- end::Body -->
+
+</html>
