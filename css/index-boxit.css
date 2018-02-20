@@ -243,6 +243,37 @@
 .promo.promo-flat a.button:hover { color: #2C3E50; }
 
 
+.boxit-banner [class^=col-] {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.boxit-banner [class^=col-] > a {
+	display: block;
+	position: relative;
+	height: 250px;
+	background-color: #EEE;
+}
+
+.boxit-banner [class^=col-] img { display: block; }
+
+.boxit-banner [class^=col-] > a:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+	opacity: 0.4;
+	-webkit-transition: opacity .3s ease;
+	-o-transition: opacity .3s ease;
+	transition: opacity .3s ease;
+}
+
+.boxit-banner [class^=col-] > a:hover:before { opacity: 1; }
+
+
 
 
 
