@@ -25,17 +25,6 @@ const incoterm  = [
   {
     name: "EXW",
     price: "Incoterm",
-
-  },
-  {
-    name: "ECA",
-    price: "Incoterm",
-
-  },
-  {
-    name: "CPT",
-    price: "Incoterm",
-
   },
   {
     name: "CIF",
@@ -50,12 +39,6 @@ const incoterm  = [
   {
     name: "FOB",
     price: "Incoterm",
-
-  },
-  {
-    name: "DDP",
-    price: "Incoterm",
-
   }
 ];
 
