@@ -51,19 +51,7 @@ const OtherServices  = [
   {
     name: "Export Clearance",
     price: "Other Services",
-
-  },
-  {
-    name: "Repalletisation",
-    price: "Other Services",
-
-  },
-  {
-    name: "Shrink Wrap",
-    price: "Other Services",
-
   }
-
 ];
 
 const vm = new Vue({
