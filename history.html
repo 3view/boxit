@@ -245,6 +245,7 @@
 
 
 			<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+				<div class="m-grid__item m-grid__item--fluid m-wrapper">
 				<div class="m-subheader ">
 					<div class="d-flex align-items-center">
 						<div class="mr-auto">
@@ -260,18 +261,29 @@
 								</li>
 								<li class="m-nav__item">
 									<a href="shipment.html" class="m-nav__link">
-									<span class="m-nav__link-text">
-										SHIPMENT INFORMATION
+									<span class="m-nav__link-text ">
+										 SHIPMENT INFORMATION
 									</span>
 								</a>
 								</li>
 							</ul>
 						</div>
-						<div>
+						<div class="form-group m-form__group">
+							<label>
+								Quotation ID
+							</label>
+							<div class="input-group">
+								<input type="text" class="form-control">
+								<div class="input-group-append">
+									<button class="btn btn-primary" type="button">
+										Go
+									</button>
+								</div>
+							</div>
 						</div>
+
 					</div>
 				</div>
-			</div>
 
       <section class="content"  >
           <section class="block">
@@ -298,9 +310,11 @@
                         </nav>
                     </div>
                       <!--end col-md-3-->
+
                       <div class="col-md-9">
                           <!--============ Section Title===================================================================-->
-                          <div class="section-title clearfix">
+
+													<div class="section-title clearfix">
                               <div class="float-left float-xs-none">
                                   <label class="mr-3 ">Sort by: </label>
                                   <select name="sorting" id="sorting" class="small width-200px" data-placeholder="Default Sorting" >
@@ -315,18 +329,23 @@
 
                           </div>
                           <!--============ Items ==========================================================================-->
-                          <div class="m-portlet">
+
+													<div class="m-portlet">
           									<form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed">
           										<div class="m-portlet__body">
           											<div class="form-group m-form__group row">
           												<div class="col-lg-4">
-          													<label>
+																		<span class="m-badge m-badge--brand m-badge--wide">
+																			 Your quotation ID: BX-12345678
+																		</span>
+																		<hr>
+          																	<label>
           								                    <span class="m-form__help">
           								                      Origin
           								                    </span>
           								                    <br>SYDNEY (2000) AUSTRALIA
           								                  </label>
-          													<label>
+          																	<label>
           								                    <span class="m-form__help">
           								                      Destination
           								                    </span>
@@ -370,7 +389,8 @@
           <!--end block-->
       </section>
 
-
+			</div>
+		</div>
 		</div>
 	</div>
 
