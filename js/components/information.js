@@ -51,6 +51,14 @@ const OtherServices  = [
   {
     name: "Export Clearance",
     price: "Other Services",
+  },
+  {
+    name: "Certificate of Origin",
+    price: "Other Services",
+  },
+  {
+    name: "BL Surrender at Origin / Telex Release",
+    price: "Other Services",
   }
 ];
 
