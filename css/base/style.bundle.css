@@ -6042,7 +6042,6 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 0;
   margin-right: 0; }
   .row.m-row--no-padding > div {
-    padding-left: 0;
     padding-right: 0; }
 
 .row.m-row--full-height {
@@ -24708,7 +24707,7 @@ body.m-portlet--fullscreen {
     color: #ffffff; }
 
 .m-wizard.m-wizard--4 .m-wizard__head {
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem 0 0; }
   .m-wizard.m-wizard--4 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step {
     margin-bottom: 2rem;
     -webkit-border-radius: 2.3rem;
@@ -24753,7 +24752,7 @@ body.m-portlet--fullscreen {
           font-weight: 600; }
 
 .m-wizard.m-wizard--4 .m-wizard__form {
-  padding: 1.2rem 1rem 1rem 1rem;
+  padding: 1.2rem 1rem 1rem 3rem;
   border-left: 0.07rem solid #EBEDF2; }
   .m-wizard.m-wizard--4 .m-wizard__form .m-wizard__form-step1 .m-form__section .form-group {
     padding-bottom: 2rem; }
@@ -24795,7 +24794,7 @@ body.m-portlet--fullscreen {
               text-align: right;
               padding-left: 1rem; }
     .m-wizard.m-wizard--4 .m-wizard__form {
-      padding: 3rem 0 0 0;
+      /* padding: 1rem 0 0 0; */
       border-top: 0.07rem solid #EBEDF2;
       border-left: 0; }
       .m-wizard.m-wizard--4 .m-wizard__form .m-wizard__form-step {
