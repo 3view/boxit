@@ -18433,9 +18433,7 @@ body.m-portlet--fullscreen {
         width: 3.2rem;
         border-radius: 50%; }
     .m-widget3 .m-widget3__item .m-widget3__header .m-widget3__info {
-      display: table-cell;
       width: 100%;
-      padding-left: 1rem;
       padding-top: -0.57rem;
       font-size: 1rem;
       vertical-align: middle; }
@@ -18445,8 +18443,6 @@ body.m-portlet--fullscreen {
       .m-widget3 .m-widget3__item .m-widget3__header .m-widget3__info .m-widget3__time {
         font-size: 0.85rem; }
     .m-widget3 .m-widget3__item .m-widget3__header .m-widget3__status {
-      display: table-cell;
-      float: right;
       font-size: 1rem;
       font-weight: 500; }
   .m-widget3 .m-widget3__item .m-widget3__body .m-widget3__text {
