@@ -28469,7 +28469,7 @@ select.m-select2 {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 2.14rem 0 2.14rem 0; }
+  padding: .14rem 0 .14rem 0; }
   .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item {
     border-right: 0.07rem solid #ebedf2;
     padding: 0; }
@@ -28500,7 +28500,7 @@ select.m-select2 {
           transform: translateX(-50%) translateY(-50%);
           content: "";
           position: absolute;
-          top: 3.5rem;
+          top: 1.5rem;
           width: 17.14rem;
           height: 0;
           border-left: 4.2rem solid transparent;
@@ -28543,7 +28543,7 @@ select.m-select2 {
       font-size: 1.34rem;
       font-weight: 600;
       display: block;
-      margin-top: 290px; }
+      margin-top: 250px; }
       .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item .m-pricing-table-1__price .m-pricing-table-1__label {
         margin-top: 0.64rem;
         margin-left: 0.357rem;
@@ -28553,7 +28553,7 @@ select.m-select2 {
     .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item:nth-child(1) .m-pricing-table-1__price {
       font-size: 1.34rem;
       margin-bottom: 0.571rem;
-      margin-top: 290px; }
+      margin-top: 250px; }
     .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item .m-pricing-table-1__subtitle {
       font-size: 1.07rem; }
     .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item .m-pricing-table-1__description {
