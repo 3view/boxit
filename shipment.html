@@ -26,12 +26,17 @@
 	<!--begin::Base Styles -->
 	<link href="css/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 	<link href="css/base/style.bundle.css" rel="stylesheet" type="text/css" />
+	<style>
+	.text-center2 {
+	text-align: center;
+}
+	</style>
 	<!--end::Base Styles -->
 </head>
 <!-- end::Head -->
 <!-- end::Body -->
 
-<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile  m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile  m-footer--push m-aside--offcanvas-default">
 	<!-- begin:: Page -->
 	<div id="app">
 		<div class="m-grid m-grid--hor m-grid--root m-page">
@@ -40,12 +45,12 @@
 				<div class="m-container m-container--fluid m-container--full-height">
 					<div class="m-stack m-stack--ver m-stack--desktop">
 						<!-- BEGIN: Brand -->
-						<div class="m-stack__item m-brand  m-brand--skin-dark ">
+						<div class="m-stack__item m-brand ">
 							<div class="m-stack m-stack--ver m-stack--general">
 								<div class="m-stack__item m-stack__item--middle m-brand__logo">
 									<a href="index.html" class="m-brand__logo-wrapper">
-											<img alt="" src="img/logo/boxit-logo.png"/>
-										</a>
+										<img alt="" width="120px" src="img/logo/EZY-LCL-Logo-spec.png"/>
+									</a>
 								</div>
 								<div class="m-stack__item m-stack__item--middle m-brand__tools">
 
@@ -355,7 +360,7 @@
 																</li>
 																<li class="m-nav__separator m-nav__separator--fit"></li>
 																<li class="m-nav__item">
-																	<a href="exit-user.html" class="btn m-btn--pill btn-secondary m-btn m-btn--custom m-btn--label-brand m-btn--bolder">
+																	<a href="exit-user.html" class="btn m-btn--pill btn-primary m-btn m-btn--custom m-btn--label-brand m-btn--bolder">
 																				Logout
 																			</a>
 																</li>
@@ -380,117 +385,86 @@
 			<div class="main-container">
 				<div class="modal-container" data-autoshow="500">
 					<div class="modal-content">
-						<div class="m-content">
-							<div class="row">
-								<div class="col-xl-12">
-									<!--begin::Portlet-->
-									<div class="m-portlet m-portlet--tab">
-										<div class="m-portlet__head">
-											<div class="m-portlet__head-caption">
-												<div class="m-portlet__head-title">
+						<div class="m-content ">
 
-													<h3 class="m-portlet__head-text">
-																	NON Standard SHIPMENT
-																</h3>
-												</div>
+							<div class="m-portlet">
+							<div class="m-portlet__head">
+								<div class="m-portlet__head-caption">
+									<div class="m-portlet__head-title">
+										<span class="m-portlet__head-icon">
+											<i class="la la-puzzle-piece"></i>
+										</span>
+										<h3 class="m-portlet__head-text">
+											EZY LCL Does NOT provide services for the following.
+
+										</h3>
+									</div>
+								</div>
+							</div>
+							<div class="m-portlet__body">
+								<div class="m-pricing-table-1 m-pricing-table-1--fixed">
+									<div class="m-pricing-table-1__items row">
+										<div class="m-pricing-table-1__item col-lg-4">
+											<div class="m-pricing-table-1__visual">
+												<div class="m-pricing-table-1__hexagon1"></div>
+												<div class="m-pricing-table-1__hexagon2"></div>
+												<span class="m-pricing-table-1__icon m--font-brand">
+													<img  src="img/W30225-Design-a-Sign.jpg" width="200px">
+
+												</span>
 											</div>
+											<span class="m-pricing-table-1__price">
+												Special Commodities
+											</span>
+
+
+
 										</div>
-										<div class="m-portlet__body">
-											<!--begin::Section-->
-											<div class="m-section">
+										<div class="m-pricing-table-1__item col-lg-4">
+											<div class="m-pricing-table-1__visual">
+												<div class="m-pricing-table-1__hexagon1"></div>
+												<div class="m-pricing-table-1__hexagon2"></div>
+												<span class="m-pricing-table-1__icon m--font-brand">
+													<img  src="img/notstack.png" height="250" width="200px">
 
-												<div class="m-section__content">
-													<table class="table table-hover">
-														<thead>
-															<tr>
-																<th style="width: 150px">
-																	Criteria
-																</th>
-
-																<th style="width: 500px">
-																	Detail
-																</th>
-
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>
-																	<div class="m-checkbox-list">
-																				<label class="m-checkbox ">
-																			<input type="checkbox" >
-																			<span></span>
-																		</label>
-																	</div>
-																</td>
-																<td>
-																	General Cargo exceeding the dimensions below-<br> Length: 5.80 meters<br> Width: 2.25 meters<br> Height: 2.20 meters<br> Volume: 10 cbm per piece<br> Weight: 2, 500 kilos per piece
-																</td>
-																<td>
-																</td>
-															</tr>
-															<tr>
-																<td>
-																	<div class="m-checkbox-list">
-																		<label class="m-checkbox">
-																			<input type="checkbox" >
-																			<span></span>
-																		</label>
-																	</div>
-																</td>
-																<td>
-																	<b>Non-standard Commodity:</b> Live plants and animals, perishables of any kind, High value items like precious metal, arms and ammunitions and vehicles (incl. motor cycles), tobacco, cigarettes and Personal Effects.
-																</td>
-																<td>
-																</td>
-															</tr>
-															<tr>
-																<td>
-																	<div class="m-checkbox-list">
-																		<label class="m-checkbox">
-																			<input type="checkbox">
-																			<span></span>
-																		</label>
-																	</div>
-																</td>
-																<td>
-																	Non-stackable cargo
-																</td>
-																<td>
-																</td>
-															</tr>
-															<tr>
-																<td>
-																	<div class="m-checkbox-list">
-																		<label class="m-checkbox">
-																			<input type="checkbox">
-																			<span></span>
-																		</label>
-																	</div>
-																</td>
-																<td>
-																	<b>Dangerous Goods</b> cargo as per International Maritime Dangerous Goods Code If none of the above conditions are applicable then you can PRESS CONTINUE to proceed with your standard booking
-																</td>
-																<td>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-
-													<button class="btn btn-primary modal-close">Continue</button>
-
-												</div>
-												<div class="m--space-30"></div>
-
-
+												</span>
 											</div>
-											<!--end::Section-->
+											<span class="m-pricing-table-1__price">
+												NON Stackable Cargo
+
+											</span>
+
+										</div>
+										<div class="m-pricing-table-1__item col-lg-4">
+											<div class="m-pricing-table-1__visual">
+												<div class="m-pricing-table-1__hexagon1"></div>
+												<div class="m-pricing-table-1__hexagon2"></div>
+												<span class="m-pricing-table-1__icon m--font-brand">
+													<img  src="img/da.png"  width="200px">
+												</span>
+											</div>
+											<span class="m-pricing-table-1__price">
+												Dangerous Goods
+
+											</span>
+
+
+
 										</div>
 									</div>
-									<!--end::Portlet-->
 								</div>
+								<div class="text-center2">
+										<p>If you are unsure, please send us an email at <b>support@ezylcl.com</b> for clarification</p>
+										<p>Thank You for your understanding!</p>
 
+									</div>
+									<div class="text-center2">
+									<button class="btn btn-primary modal-close ">Continue</button>
+								</div>
 							</div>
+						</div>
+
+
 						</div>
 					</div>
 				</div>
@@ -514,7 +488,7 @@
 									<li class="m-nav__item">
 										<a href="shipment.html" class="m-nav__link">
 										<span class="m-nav__link-text">
-											 <font color="red">SHIPMENT INFORMATION</font>
+											 <font color="#ff7600">SHIPMENT INFORMATION</font>
 										</span>
 									</a>
 									</li>
@@ -743,7 +717,7 @@
 									<!--end::Form-->
 								</div>
 								<a href="option.html">
-								<button type="button" class="btn btn-primary">
+								<button type="button" class="btn btn-secondary">
 									OPTIONS
 								</button>
 							</a>

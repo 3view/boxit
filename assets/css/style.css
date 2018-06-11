@@ -2305,7 +2305,7 @@ a:hover, a:focus, a:active {
     text-decoration: none;
 }
 a:hover {
-    color: #ff0000;
+    color: #ff7600;
 }
 a.icon i {
     color: #ff0000;
@@ -2339,10 +2339,10 @@ a.nav-link i {
     opacity: .3;
 }
 a.nav-link.active {
-    color: #ff0000;
+    color: #ff7600;
 }
 a.nav-link.active i {
-    color: #ff0000;
+    color: #ff7600;
     opacity: 1;
 }
 body, html {
