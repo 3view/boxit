@@ -1,32 +1,4 @@
-/*------------------------------------------------------------------
-Project:	Craigs - Easy Buy & Sell Directory Listing Template
-Version:	1.0
-Last change:	6.9.2017
-Assigned to:	ThemeStarz
 
-[Table of contents]
-
-1. Classes
-2. Element styling
-3. Forms
-4. Universal classes
-5. Responsive
-
-[Color codes]
-
-default_color[#ff0000];
-Text: #363636;
-
-[Typography]
-
-Body copy:		'Poppins', sans-serif; 14px;
-Headers:		'Varela Round', sans-serif;
-
--------------------------------------------------------------------*/
-/*1. Classes*/
-/********
---- A ---
-********/
 /*------ Additional Information list ------*/
 .additional-info {
     padding-left: 1.8rem;
