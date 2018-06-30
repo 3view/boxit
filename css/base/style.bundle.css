@@ -51,7 +51,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Poppins";
+  font-family: "Belleza";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -7475,7 +7475,7 @@ body {
   padding: 0px;
   font-size: 14px;
   font-weight: 300;
-  font-family: Poppins;
+  font-family: Belleza;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -25892,7 +25892,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background: #ebedf2; }
 
 .datepicker tbody tr > td.day {
-  color: #575962; }
+  color: #000000; }
   .datepicker tbody tr > td.day:hover {
     background: #ebedf2; }
   .datepicker tbody tr > td.day.old {
@@ -25900,7 +25900,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   .datepicker tbody tr > td.day.new {
     color: #575962; }
   .datepicker tbody tr > td.day.selected, .datepicker tbody tr > td.day.selected:hover, .datepicker tbody tr > td.day.active, .datepicker tbody tr > td.day.active:hover {
-    background: #5867dd;
+    background: #ff7600;
     color: #ffffff; }
   .datepicker tbody tr > td.day.today {
     background: #828ee6;
@@ -28540,7 +28540,7 @@ select.m-select2 {
         .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item .m-pricing-table-1__visual .m-pricing-table-1__icon > i {
           font-size: 8.57rem; }
     .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item .m-pricing-table-1__price {
-      font-size: 1.34rem;
+      font-size: 1.14rem;
       font-weight: 600;
       display: block;
       margin-top: 250px; }
@@ -28551,7 +28551,7 @@ select.m-select2 {
         font-size: 1.64rem;
         font-weight: 500; }
     .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item:nth-child(1) .m-pricing-table-1__price {
-      font-size: 1.34rem;
+      font-size: 1.14rem;
       margin-bottom: 0.571rem;
       margin-top: 250px; }
     .m-pricing-table-1 .m-pricing-table-1__items .m-pricing-table-1__item .m-pricing-table-1__subtitle {
@@ -35130,9 +35130,10 @@ body.m-content--skin-light2 {
   box-shadow: none;
 }
 .modal-container .modal-content:not(.height--natural) {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 60%;
 }
+
 .modal-container .modal-content .modal-close-cross {
   cursor: pointer;
   position: absolute;

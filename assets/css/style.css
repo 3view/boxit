@@ -2317,16 +2317,7 @@ a.nav-link.active i {
     color: #ff7600;
     opacity: 1;
 }
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    position: relative;
-}
-html {
-    /* font-size: 62.5%; */
-}
+
 body {
     font-size: 1.1rem;
     background-color: #f2f2f2;
