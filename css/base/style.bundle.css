@@ -35130,8 +35130,8 @@ body.m-content--skin-light2 {
   box-shadow: none;
 }
 .modal-container .modal-content:not(.height--natural) {
-  width: 50%;
-  height: 60%;
+  width: 45%;
+  height: 48%;
 }
 
 .modal-container .modal-content .modal-close-cross {
