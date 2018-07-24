@@ -1,0 +1,27 @@
+.field-validation-error { color: red; font-size: 12px; font-weight: normal; }
+.validation-summary-errors ul { list-style: none; padding: 0; margin: 0; }
+    .validation-summary-errors ul li { list-style: none; color: red; padding: 0; margin: 0; font-size: 12px; font-weight: normal; }
+.alert { margin: 20px 0 25px 0; text-align: center; }
+label.error, .form-control-feedback { color: red; font-size: 12px; font-weight: normal; display: block !important; }
+.btn-group.bootstrap-select { background-color: transparent; }
+.hidden { display: none !important; }
+button[disabled] { cursor: not-allowed; }
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered { width: 100% !important; }
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td { font-weight: normal; font-size: 14px; }
+.strong { font-weight: 600 !important; }
+
+div[data-repeater-item].inactive { display: none; }
+.has-danger label { color: #575962 !important; }
+
+.m-form__help .param { display: inline-block; margin: 0 3px 0 0; font-size: 12px; }
+    .m-form__help .param label { font-weight: bold; }
+
+.print-visible { display: none; }
+
+.bootstrap-select > .btn { border-color: #ebedf2 !important; }
+.btn-primary.disabled, .btn-primary:disabled { background-color: #909090; border-color: transparent; }
+.custom-file { position: relative; }
+    .custom-file .delete { position: absolute; right: -20px; top: 8px; display: block; color: #000; }
+
+.modal-container .modal-content:not(.height--natural) { height: auto !important; overflow-y: auto; }
+header { box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.06) !important; }

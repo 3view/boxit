@@ -138,7 +138,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #2739c1;
+    color: #f38117;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -7263,10 +7263,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .alert-danger:not(.m-alert--outline) {
   color: white;
-  background-color: #f66e84;
-  border-color: #f55f78; }
+  background-color: #f38117;
+  border-color: #f38117; }
   .alert-danger:not(.m-alert--outline) hr {
-    border-top-color: #f34764; }
+    border-top-color: #f38117; }
   .alert-danger:not(.m-alert--outline) .alert-link {
     color: #e6e6e6; }
   .alert-danger:not(.m-alert--outline) .close {
@@ -30344,27 +30344,27 @@ select.m-select2 {
 .m-error-5 .m-error_container .m-error_description {
   color: #333439; }
 
-.m-error-6 {
+.contact-us {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
-  .m-error-6 .m-error_container {
+  .contact-us .contact-us_container {
     text-align: center; }
-    .m-error-6 .m-error_container .m-error_subtitle > h1 {
+    .contact-us .contact-us_container .m-error_subtitle > h1 {
       font-size: 10rem;
       margin-top: 12rem;
       font-weight: 600; }
-    .m-error-6 .m-error_container .m-error_description {
+    .contact-us .contact-us_container .contact-us_description {
       margin-top: 3rem;
-      font-size: 2.3rem;
+      font-size: 1.3rem;
       font-weight: 500;
       line-height: 3rem; }
 
 @media (max-width: 768px) {
-  .m-error-6 .m-error_container .m-error_subtitle > h1 {
+  .contact-us .contact-us_container .m-error_subtitle > h1 {
     font-size: 5rem; }
-  .m-error-6 .m-error_container .m-error_description {
+  .contact-us .contact-us_container .m-error_description {
     font-size: 1.7rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem; } }
@@ -35130,8 +35130,8 @@ body.m-content--skin-light2 {
   box-shadow: none;
 }
 .modal-container .modal-content:not(.height--natural) {
-  width: 45%;
-  height: 48%;
+  width: 50%;
+  height: 60%;
 }
 
 .modal-container .modal-content .modal-close-cross {
