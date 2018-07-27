@@ -462,7 +462,7 @@
 	.sm-px{ padding-left:50px !important; padding-right:50px !important; }
 	.sm-pt{ padding-top:50px !important; } .sm-pr{ padding-right:50px !important; } .sm-pb{ padding-bottom:50px !important; } .sm-pl{ padding-left:50px !important; }
 	.py{ padding-top:100px !important; padding-bottom:100px !important; }
-	.py-home{ padding-top:100px !important;}
+	.py-home{ padding-top:40px !important;}
 	.px{ padding-left:100px !important; padding-right:100px !important; }
 	.pt{ padding-top:100px !important; } .pr{ padding-right:100px !important; } .pb{ padding-bottom:100px !important; } .pl{ padding-left:100px !important; }
 	.md-py{ padding-top:150px !important; padding-bottom:150px !important; }
